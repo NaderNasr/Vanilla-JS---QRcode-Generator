@@ -24,12 +24,15 @@ body{
 }
 
 #tooltip .tooltiptext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   visibility: hidden;
-  width: 420px;
+  width: 15vw;
   top: 100%;
   right: 0%;
   margin-top: 40px;
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
   background-color: #00a0da;
   color: #fff;
   text-align: center;
