@@ -16,6 +16,34 @@ body{
   background-color: #091134;
 }
 
+
+#tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+#tooltip .tooltiptext {
+  visibility: hidden;
+  width: 420px;
+  top: 100%;
+  right: 0%;
+  margin-top: 40px;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  background-color: #00a0da;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+#tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 footer{
   margin-top: auto;
   background-color: #091134;
