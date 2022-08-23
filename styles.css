@@ -1,3 +1,22 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 #spinner {
   display: none;
+}
+
+#toast-warning {
+  display: none;
+}
+
+#nav {
+  background-color: #091134;
+}
+
+footer{
+  margin-top: auto;
+  background-color: #091134;
 }
